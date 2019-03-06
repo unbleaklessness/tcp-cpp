@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 
-set(NAME test)
+set(NAME tcp_cpp_test)
 
 add_executable(${NAME} main.cpp tcp_cpp/library_test.h)
 
