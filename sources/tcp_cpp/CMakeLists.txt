@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 
-set(NAME tcpcpp)
+set(NAME tcp_cpp)
 
 add_library(${NAME} STATIC SHARED tcp_server.cpp)
 
